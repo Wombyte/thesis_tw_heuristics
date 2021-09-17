@@ -75,11 +75,6 @@ int main() {
 	GraphGenerator* gen;
 
 	while (cin >> type) {
-		/**
-		 * >> grids <w1> <h1> <w2> <h2> <perms> 
-		 * w1 h1 w2 h2 [4x number]: range for grid dimensions
-		 * perms [number]: number of different permutations for each grid, one default permutation if perms=0
-		 */ 
 		if (type.compare("grids") == 0) {
 			int startw, endw, starth, endh, perms;
 			bool coordinates;
